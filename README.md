@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📄 Assignment: Build a Personal Dashboard Web App
+Objective:
+Create a simple, responsive personal dashboard web app using Next.js and Tailwind CSS or plain 
+CSS/JavaScript. This should reflect your academic or professional information, showcasing your ability to structure, style, and deploy a basic full-stack application.
+________________________________________
+🛠️ Requirements:
+1.	Tech Stack:
+o	Use Next.js (preferred) or basic HTML/CSS/JavaScript.
+o	Use Tailwind CSS or plain CSS (no UI libraries like Bootstrap).
+o	Data can be static or fetched from a simple local JSON object.
+2.	Dashboard Features:
+o	Profile Section: Your name, photo, bio, and contact info.
+o	Academics/Experience: List your education or internships/projects.
+o	Skills: List technologies/tools you know.
+o	Optional: Add a section for your goals, hobbies, or certifications.
+3.	Design:
+o	Clean, mobile-friendly layout.
+o	Navigation bar (even simple tabbed sections is fine).
+o	Good typography and spacing.
+4.	Deployment:
+o	Deploy your project on Vercel or Netlify.
+o	Share the live URL and GitHub repository link.
+🕒 Timeline:
+Submit before 26/05/2025 (Monday).
+________________________________________
+✅ Evaluation Criteria:
+•	Code quality and structure
+•	UI/UX Design
+•	Use of modern web technologies
+•	Completeness and creativity
+•	Deployment success
