@@ -11,14 +11,14 @@ export default function Goals() {
         {id: 5, text: "Start a developer YouTube channel."},
     ]
     return (
-        <section id="goals" className="min-h-screen p-5">
+        <section id="goals" className="min-h-screen flex flex-col p-5">
             <motion.div 
                     initial={{ opacity: 0, y: 30}}
                     whileInView={{opacity: 1, y: 0}}
                     transition={{duration: 0.4, delay: 1 * 0.05}}
                     viewport={{ once: false }}
                     ><h2 className="text-xl font-bold text-center mb-8">Goals</h2></motion.div>
-            <ul className="max-w-xl mx-auto flex flex-col gap-5">
+            <ul className="max-w-xl mx-auto my-auto flex flex-col gap-5">
                 {goals.map((goal) => (
                                 <motion.div 
                                 key={goal.id}
