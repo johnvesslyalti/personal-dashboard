@@ -21,10 +21,11 @@ export default function Goals() {
             <ul className="max-w-xl mx-auto flex flex-col gap-5">
                 {goals.map((goal) => (
                                 <motion.div 
-                    initial={{ opacity: 0, y: 30}}
-                    whileInView={{opacity: 1, y: 0}}
-                    transition={{duration: 0.4, delay: goal.id * 0.05}}
-                    viewport={{ once: false }}
+                                key={goal.id}
+                                initial={{ opacity: 0, y: 30}}
+                                whileInView={{opacity: 1, y: 0}}
+                                transition={{duration: 0.4, delay: goal.id * 0.05}}
+                                viewport={{ once: false }}
                     ><li className=" flex justify-center items-center backdrop:blur-xl bg-black/20 border-1 border-white/30 p-5 rounded-xl">{goal.text}</li></motion.div>
                 ))}
             </ul>
